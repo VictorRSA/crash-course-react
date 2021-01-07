@@ -1,6 +1,6 @@
-import React from 'react';
+import React from 'react';  //we are importing react dom,for internet app
 import ReactDOM from 'react-dom';
-import './index.css';
+// import './index.css'; because i deleted the index.css file
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
@@ -8,7 +8,8 @@ ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('root')  // is grapping  our output file fopr our components to be displayed
+
 );
 
 // If you want to start measuring performance in your app, pass a function
